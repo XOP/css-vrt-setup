@@ -1,0 +1,34 @@
+{
+  "name": "css-vrt-setup",
+  "version": "0.1.0",
+  "description": "CSS visual regression testing playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests",
+    "server": "./node_modules/.bin/selenium-standalone start",
+    "postinstall": "./node_modules/.bin/selenium-standalone install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XOP/css-vrt-setup.git"
+  },
+  "keywords": [
+    "css",
+    "testing",
+    "visual",
+    "regression",
+    "selenium",
+    "webdriver"
+  ],
+  "author": "Evgeny Khoroshilov <stewiekillsloiss@gmail.com> (https://github.com/XOP)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XOP/css-vrt-setup/issues"
+  },
+  "homepage": "https://github.com/XOP/css-vrt-setup#readme",
+  "dependencies": {
+    "selenium-standalone": "^5.1.0",
+    "webdrivercss": "^2.0.0-beta-rc1",
+    "webdriverio": "^3.4.0"
+  }
+}
