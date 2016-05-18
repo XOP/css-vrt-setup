@@ -1,3 +1,5 @@
-require("./get-title");
+// require("./get-title");
 
-require("./parse-links");
+// require("./parse-links");
+
+require("./markup-visual-test.js");
