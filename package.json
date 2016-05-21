@@ -6,7 +6,10 @@
   "scripts": {
     "test": "node tests",
     "server": "./node_modules/.bin/selenium-standalone start",
-    "postinstall": "./node_modules/.bin/selenium-standalone install"
+    "postinstall": "./node_modules/.bin/selenium-standalone install",
+    "lint": "eslint tests",
+    "precommit": "npm run lint",
+    "cleanup": "rm -rf screenshots && mkdir screenshots"
   },
   "repository": {
     "type": "git",
@@ -28,8 +31,14 @@
   "homepage": "https://github.com/XOP/css-vrt-setup#readme",
   "dependencies": {
     "log-util": "^1.1.1",
+    "phantomcss": "^1.1.2",
     "selenium-standalone": "^5.1.0",
     "webdrivercss": "^2.0.0-beta-rc1",
     "webdriverio": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-xop": "^1.2.0",
+    "husky": "^0.11.4"
   }
 }

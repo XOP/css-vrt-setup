@@ -3,7 +3,7 @@ var log = require('log-util');
 var wdio = require('webdriverio');
 var wdcss = require('webdrivercss');
 
-var TEST_NAME = 'markup-visual';
+var TEST_NAME = 'take-screenshots';
 
 var wdioOptions = {
     desiredCapabilities: {
@@ -13,6 +13,7 @@ var wdioOptions = {
 
 var wdcssOptions = {
     screenshotRoot: 'screenshots'
+
     //failedComparisonsRoot: 'diffs',
     //misMatchTolerance: 0.05,
     //screenWidth: [320,480,640,1024],

@@ -1,5 +1,6 @@
-// require("./get-title");
+//require('./get-page-title');
+//require('./get-element-text');
+//require('./take-screenshots.js');
+//require('./hover-test.js');
 
-// require("./parse-links");
-
-require("./markup-visual-test.js");
+require('./take-actions.js');

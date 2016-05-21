@@ -14,7 +14,7 @@ log.info('Getting CSSG.ROCKS title');
 browser
     .init()
     .url('http://cssg.rocks/')
-    .getTitle().then(function(title) {
+    .getTitle().then(function (title) {
         log.info('CSS.ROCKS title:');
         log.debug(title + ' is awesome!');
     })
