@@ -3,5 +3,6 @@
 //require('./take-screenshots.js');
 //require('./hover-test.js');
 //require('./take-actions.js');
+//require('./visibility-check.js');
 
-require('./visibility-check.js');
+require('./image-comparison.js');
